@@ -1,0 +1,52 @@
+* {
+    margin:0;
+    padding:0;
+}
+.clear {
+    clear:both;
+}
+header {
+    height:500px;
+}
+header #green{
+    position: absolute;
+    z-index: -1;
+    height: 500px;
+    width: 1600px;
+}
+header #top {
+    width:990px;
+    margin:0 auto;
+ /*border:solid 1px #0000ff; */
+}
+header #logo {
+    float:left;
+    margin:40px 0 0 0px;
+/* border:solid 1px #000000; */
+}
+/* 상단 메뉴 */
+header #top_menu {
+    float:right;	
+    margin-top:45px;
+    /*border:solid 1px #000000; */
+}
+header #top_menu a:link {
+    font-size:18px;
+    color:#888888;
+    margin-left: 30px;
+    text-decoration: none;
+}
+header #top_menu a:visited {
+    font-size:11px;
+    color:#888888;
+}
+header #top_menu a:hover {
+    color:#888888;
+}
+header #top_menu a:active {
+    color:#888888;
+}
+header #top_menu li {
+    display:inline;
+    margin-left:10px;
+}
