@@ -26,9 +26,12 @@ header #logo {
 }
 /* 상단 메뉴 */
 header #top_menu {
+    position: fixed;
     float:right;	
     margin-top:45px;
-    /*border:solid 1px #000000; */
+    margin-left: 600px;
+   /* border:solid 1px #000000; */
+
 }
 header #top_menu a:link {
     font-size:18px;
