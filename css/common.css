@@ -12,7 +12,7 @@ header #green{
     position: absolute;
     z-index: -1;
     height: 500px;
-    width: 1600px;
+    width: 100%;
 }
 header #top {
     width:990px;
@@ -20,7 +20,9 @@ header #top {
  /*border:solid 1px #0000ff; */
 }
 header #logo {
-    float:left;
+    position: absolute;
+    top: 2%;
+    left: 5%;
     margin:40px 0 0 0px;
 /* border:solid 1px #000000; */
 }
@@ -34,7 +36,7 @@ header #top_menu {
 
 }
 header #top_menu a:link {
-    font-size:18px;
+    font-size:20px;
     color:#888888;
     margin-left: 30px;
     text-decoration: none;
