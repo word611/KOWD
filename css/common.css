@@ -55,3 +55,22 @@ header #top_menu li {
     display:inline;
     margin-left:10px;
 }
+footer{
+    height:80px;
+    margin-top:40px;
+}
+footer #f_green{
+    position: absolute;
+    z-index: -1;
+    height: 80px;
+    width: 100%;
+}
+#footer list ul{
+    
+}
+#footer_list li{
+    list-style-type: none;
+    color: blanchedalmond;
+    margin-left: 20px;
+    margin-top: 5px;
+}
