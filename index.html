@@ -1,106 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KOWD_patisserie</title>
-    <link href="css/common.css" rel="stylesheet" type="text/css">
-    <link href="css/main.css" rel="stylesheet" type="text/css">
-    <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
-
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>kowd</title>
+  </head>
+  <body>
     <header>
-        <img id="green" src="img/green.png">
-        <section id="top">
-            <a id="logo" href="index.html"><img src="img/logo.png"></a>
-            <nav id="top_menu">
-                <ul>
-                    <li ><a href="#">HOME</a></li>
-                    <li ><a href="#tag1">MENU</a></li>
-                    <li><a href="#">ORDER</a></li>
-                    <li><a href="#tag2">CONTACT US</a></li>
-                </ul>
-            </nav>
-            <div class="clear"></div>
-        </section>
+      <h1>
+        kowd
+      </h1>
+      <div class="bottom">
+        <h3>
+           patisserie
+        </h3>
+        <p>
+          Knock<br>
+          On<br>
+          Wood
+        </p>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#tag2">Menu</a></li>
+            <li><a href="#tag3">Order</a></li>
+            <li><a href="#tag4">Contact</a></li>
+          </ul>
+          <h2>서울 관악구 인헌길 101 1층 kowd </h2>
+        </nav>
+      </div>
     </header>
     <main>
-        <section id="main_menu">
-            <a name="tag1"></a>
-            <h2>MENU</h2>
-
-            <div class="items">
-            <ul>
-                <p id="name">딸기케이크</p>
-                <li class="img"><img src="img/딸기케이크.png"></li>
-            </ul>
+      <section class="main">
+        <div class="wrapper">
+          <div class="main_header">
+            <h4>kowd - patisserie</h4>
+            <h5>2021.02.06 OPEN</h5>
+          </div>
+          <img src="img/main.png" alt="" />
+        </div>
+      </section>
+      <a name="tag2"></a>
+      <section class="main">
+        <div class="wrapper">
+          <div class="main_header">
+            <h4>Menu</h4>
+            <div class="all-items">
+            <div class="items-first"><img src="img/딸기케이크.png" >
+              <div class="name"><p>딸기케이크</p></div>
             </div>
-            <div class="items">
-                <ul>
-                    <p id="name">포레누아</p>
-                    <li class="img"><img src="img/포레누아.png"></li>
-                </ul>
+              <div class="items-first"><img src="img/마들렌.png">
+                <div class="name"><p>마들렌</p></div>
+              </div>
+              <div class="items-first"><img src="img/포레누아.png">
+                <div class="name"><p>포레누아</p></div>
+              </div>
+              <div class="items-second"><img src="img/피낭시에.png" >
+                <div class="name"><p>피낭시에</p></div>
+              </div>
+              <div class="items-second"><img src="img/피스타치오슈.png">
+                <div class="name"><p>피스타치오슈</p></div>
+              </div>
+              <div class="items-second"><img src="img/피칸 타르트.png">
+                <div class="name"><p>피칸 타르트</p></div>
+              </div>
+              </div> 
             </div>
-            <div class="items">
-                <ul>
-                    <p id="name">마들렌</p>
-                    <li class="img"><img src="img/피칸 타르트.png"></li>
-                </ul>
+        </div>
+      </section>
+      <a name="tag3"></a>
+      <section class="main">
+        <div class="wrapper">
+          <div class="main_header">
+            <h4>Order</h4>
+            <div class="order_menu">
+              <p><a href="order.html">→ 크리스마스 선물세트</a></p>
+              <div class="set"><img src="img/선물세트1.png"></div>
+              <span><a href="order.html">→ 딸기 홀케익</a></span>
+              <div class="set"><img src="img/선물세트2.png"></div>
             </div>
-            <div class="clear"></div>
-            <div class="items">
-                <ul>
-                    <p id="name">마들렌</p>
-                    <li class="img"><img src="img/마들렌.png"></li>
-                </ul>
-            </div>
-            <div class="items">
-                <ul>
-                    <p id="name">피낭시에</p>
-                    <li class="img"><img src="img/피낭시에.png"></li>
-                </ul>
-            </div>
-            <div class="items">
-                <ul>
-                    <p id="name">피스타치오슈</p>
-                    <li class="img"><img src="img/피스타치오슈.png"></li>
-                </ul>
-            </div>
-            <div class="clear"></div>
-        </section>
-        <section id="second_menu">
-            <a name="tag2"></a>
-            <h2>CONTACT</h2>
-        <div id="daumRoughmapContainer1638145212942" class="root_daum_roughmap root_daum_roughmap_landing">
-        <script charset="UTF-8">
-            new daum.roughmap.Lander({
-                "timestamp" : "1638145212942",
-                "key" : "288s5",
+          </div>
+        </div>
+      </section>
+      <a name="tag4"></a>
+      <section class="main">
+        <div class="wrapper">
+          <div class="main_header">
+            <h4>Contact</h4>
+            <div class="map">
+            <div id="daumRoughmapContainer1638934720245" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+            <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+            <script charset="UTF-8">
+              new daum.roughmap.Lander({
+                "timestamp" : "1638934720245",
+                "key" : "28crw",
                 "mapWidth" : "700",
-                "mapHeight" : "400"
-            }).render();
-        </script>
+                "mapHeight" : "500"
+              }).render();
+            </script>
             </div>
-            <div id="time">
-                <ul class="open_close">
-                    <li>OPEN : 11:30</li>
-                    <li>CLOSE : 19:30</li>
-                    <li>MONDAY CLOSED</li>
-                </ul>
+            <div class="contact">
+              <h2>OPEN 11:30<br>
+                CLOSE 19:30<br></h2>
+              <h3>MONDAY CLOSED</h3>
+              <h4>Tel : 010-1111-1111</h4>
+              </div>
             </div>
-        </section>
+              </div>
+          </div>
+      </section>
     </main>
-    <footer>
-        <section id="footer_list">
-            <img id="f_green" src="img/green.png">
-            <ul>
-                <li>주소 : 서울특별시 관악구 봉천동 178-40 1층</li>
-                <li>전화번호 : 0507-1470-1993</li>
-
-            </ul>
-        </section>
-    </footer>
-</body>
+  </body>
 </html>
